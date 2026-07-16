@@ -68,6 +68,12 @@
     box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
   }
   .brand-mark svg{ width:5.8mm; height:5.8mm; }
+  .brand-mark .logo-text{
+    font-family:var(--font-display); font-weight:700; font-size:7.8px; letter-spacing:.2px;
+    background: linear-gradient(135deg, var(--accent-2), var(--accent-warm));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    display:flex; align-items:center; justify-content:center; width:100%; height:100%;
+  }
   .brand-text .eyebrow{
     font-size:7.4px; letter-spacing:2.2px; text-transform:uppercase; color:var(--accent); font-weight:700;
   }
@@ -210,10 +216,10 @@
   <div class="header">
     <div class="brand">
       <div class="brand-mark">
-        <svg viewBox="0 0 24 24" fill="none"><circle cx="4" cy="18" r="2" fill="#0A0F1C"/><circle cx="20" cy="6" r="2" fill="#0A0F1C"/><path d="M4 18 L20 6" stroke="#0A0F1C" stroke-width="1.6" stroke-dasharray="2 2"/><circle cx="12" cy="12" r="2" fill="#0A0F1C"/></svg>
+        <div class="logo-text">VitLog</div>
       </div>
       <div class="brand-text">
-        <div class="eyebrow">Filial BEL · Operação Logística</div>
+        <div class="eyebrow"><h2>VitLog</h2>Filial BEL · Operação Logística</div>
         <h1>RELATÓRIO DE DESEMPENHO</h1>
       </div>
     </div>
